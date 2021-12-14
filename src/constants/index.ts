@@ -7,7 +7,7 @@ export * from './natives'
 export * from './numbers'
 export * from './tokens'
 
-export const INIT_CODE_HASH: string = '0xf752c87fcc5e1f6eee586ee8e7837ea8bc0c4003bca7c168a8d417962f0f2bf6'
+// export const INIT_CODE_HASH: string = '0xf752c87fcc5e1f6eee586ee8e7837ea8bc0c4003bca7c168a8d417962f0f2bf6'
 
 
 

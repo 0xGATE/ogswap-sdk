@@ -3,6 +3,7 @@ import { ChainId } from '../enums'
 
 export const USDC_ADDRESS: AddressMap = {
   [ChainId.MAINNET]: '0xc21223249CA28397B4B6541dfFaEcC539BfF0c59',
+  [ChainId.ETHEREUM]: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
   [ChainId.ROPSTEN]: '0x0D9C8723B343A8368BebE0B5E89273fF8D712e3C',
   [ChainId.KOVAN]: '0xb7a4F3E9097C08dA09517b5aB877F7a917224ede',
   [ChainId.MATIC]: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
@@ -20,6 +21,7 @@ export const USDC_ADDRESS: AddressMap = {
 
 export const USD_ADDRESS: AddressMap = {
   [ChainId.MAINNET]: USDC_ADDRESS[ChainId.MAINNET],
+  [ChainId.ETHEREUM]: USDC_ADDRESS[ChainId.ETHEREUM],
   [ChainId.ROPSTEN]: USDC_ADDRESS[ChainId.ROPSTEN],
   [ChainId.KOVAN]: USDC_ADDRESS[ChainId.KOVAN],
   [ChainId.MATIC]: USDC_ADDRESS[ChainId.MATIC],
@@ -284,8 +286,8 @@ export const MINICHEF_ADDRESS: AddressMap = {
 }
 
 export const WETH9_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23',
-  /**
+  [ChainId.MAINNET]: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a',
+  [ChainId.ETHEREUM]: '0xe44Fd7fCb2b1581822D0c862B68222998a0c299a',
   [ChainId.ROPSTEN]: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   [ChainId.RINKEBY]: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   [ChainId.GÖRLI]: '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
@@ -300,7 +302,6 @@ export const WETH9_ADDRESS: AddressMap = {
   [ChainId.HARMONY]: '0x6983D1E6DEf3690C4d616b13597A09e6193EA013',
   [ChainId.XDAI]: '0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1',
   [ChainId.AVALANCHE]: '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15',
-  **/
 }
 
 export const WNATIVE_ADDRESS: AddressMap = {
@@ -341,7 +342,7 @@ export const MASTERCHEF_V2_ADDRESS: AddressMap = {
 }
 
 export const ENS_REGISTRAR_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
 /**
   [ChainId.MAINNET]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
   [ChainId.GÖRLI]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
@@ -352,16 +353,16 @@ export const ENS_REGISTRAR_ADDRESS: AddressMap = {
 
 export const ZAPPER_ADDRESS: AddressMap = {
 
-  [ChainId.MAINNET]: '',
-/**
   [ChainId.ROPSTEN]: '0xcff6eF0B9916682B37D80c19cFF8949bc1886bC2',
+/**
+  [ChainId.MAINNET]: '0xcff6eF0B9916682B37D80c19cFF8949bc1886bC2',
   **/
 }
 
 export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
-  /**
   [ChainId.ROPSTEN]: '0x84d1f7202e0e7dac211617017ca72a2cb5e2b955',
+  /**
+  [ChainId.MAINNET]: '',
   **/
 }
 

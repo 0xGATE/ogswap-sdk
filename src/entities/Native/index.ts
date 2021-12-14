@@ -2,6 +2,7 @@
 export { Avalanche } from './Avalanche'
 export { Binance } from './Binance'
 export { Celo } from './Celo'
+export { Cronos } from './Cronos'
 export { Ether } from './Ether'
 export { Fantom } from './Fantom'
 export { Harmony } from './Harmony'
